@@ -19,20 +19,23 @@
     />
   </head>
   <body>
-    <div id="leftBox">
-      <div class="text-flex">
-        <!-- <input type="text" id="noteText" /> -->
-        <textarea id="noteText" placeholder="Write a text here"></textarea>
+    <div class="container">
+      <div id="leftBox">
+        <div class="text-flex">
+          <!-- <input type="text" id="noteText" /> -->
+          <textarea id="noteText" placeholder="Write a text here"></textarea>
 
-        <input type="color" id="colorPicker" />
+          <input type="color" class="picker" id="bgColor" />
+          <input type="color" class="picker" id="textColor" value="#f8cebc" />
+        </div>
+
+        <button id="btn">Add Note</button>
       </div>
 
-      <button id="btn">Add Note</button>
-    </div>
-
-    <div id="rightBox">
-      <h1>Your Notes</h1>
-      <div id="textDisplay"></div>
+      <div id="rightBox">
+        <h1>Your Notes</h1>
+        <div id="textDisplay"></div>
+      </div>
     </div>
 
     <script src="script.js"></script>

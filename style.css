@@ -5,11 +5,15 @@ body {
   display: flex;
   height: 100vh;
 }
+.container {
+  display: flex;
+  flex-wrap: wrap;
+}
 ::placeholder {
   color: #fff;
 }
 #leftBox {
-  width: 730px;
+  width: 650px;
   background-color: gray;
   height: 100%;
   display: flex;
@@ -23,7 +27,7 @@ body {
 }
 
 #rightBox {
-  width: 800px;
+  width: 757px;
   background-color: antiquewhite;
   height: 100%;
   margin: auto;
@@ -33,6 +37,7 @@ body {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
+  overflow: scroll;
 }
 
 #textDisplay {
@@ -41,7 +46,7 @@ body {
 }
 .noteBox {
   height: 170px;
-  width: 210px;
+  width: 200px;
   border-radius: 10px;
   font-size: 25px;
   box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.717);
@@ -69,11 +74,15 @@ body {
   font-family: "Poppins", sans-serif;
   padding: 5px 0 0 10px;
 }
-#colorPicker {
+.picker {
   height: 50px;
-  width: 100px;
+  width: 80px;
   border: none;
   background: linear-gradient(rgba(0, 0, 0, 0.21), rgba(0, 0, 0, 0.279));
+}
+#textColor {
+  background: linear-gradient(rgb(214, 107, 107), rgb(26, 8, 8));
+  /* color: #f8cebcba; */
 }
 .text-flex {
   display: flex;
@@ -110,3 +119,13 @@ h1 {
   right: 11px;
   top: -7px;
 }
+/* @media screen and (min-wdth: 300px) and (max-width: 570px) {
+  #rightBox {
+    width: unset !important;
+    background-color: ;
+  }
+  .noteBox {
+    width: unset;
+    background-color: #f6c18f;
+  }
+} */
