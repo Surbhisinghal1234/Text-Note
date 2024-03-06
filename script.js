@@ -26,3 +26,4 @@ function addNote() {
     textDisplay.removeChild(textEle);
   });
 }
+

@@ -1,5 +1,7 @@
 * {
   font-family: "Caveat", cursive;
+  padding: 0;
+  margin: 0;
 }
 body {
   display: flex;
@@ -10,6 +12,9 @@ body {
   flex-wrap: wrap;
   align-items: center;
   justify-content: center;
+}
+.color-head h3 {
+  font-size: 25px;
 }
 ::placeholder {
   color: #fff;
@@ -45,6 +50,7 @@ body {
 #textDisplay {
   display: flex;
   flex-wrap: wrap;
+  /* justify-content: center; */
 }
 .noteBox {
   height: 170px;
@@ -110,6 +116,7 @@ body {
 }
 h1 {
   color: #8a632c;
+  padding: 1rem;
 }
 .placeholder {
   color: white !important;
@@ -124,10 +131,6 @@ h1 {
   right: 11px;
   top: -7px;
 }
-/* width */
-/* Color of the track (the non-draggable part) */
-/* Color of the thumb (the draggable part) */
-/* Color of the track (the non-draggable part) */
 
 #rightBox::-webkit-scrollbar,
 .noteBox::-webkit-scrollbar {
@@ -143,43 +146,4 @@ h1 {
 .noteBox::-webkit-scrollbar-track {
   background-color: #f1f1f1;
   border-radius: 0 10px 10px 0;
-}
-
-/* ............................. */
-
-/* .noteBox::-webkit-scrollbar {
-  width: 8px;
-}
-
-.noteBox::-webkit-scrollbar-thumb {
-  background-color: #888;
-}
-
-.noteBox::-webkit-scrollbar-track {
-  background-color: #f1f1f1;
-} */
-
-@media screen and (min-wdth: 300px) and (max-width: 570px) {
-  #rightBox {
-    width: unset !important;
-  }
-  .noteBox {
-    width: unset;
-  }
-}
-
-@media screen and (min-width: 760px) and (max-width: 990px) {
-  #rightBox {
-    width: unset !important;
-    padding: 0;
-    margin: 0;
-  }
-  .noteBox {
-    width: unset;
-  }
-  #leftBox {
-    width: unset;
-    padding: 0;
-    margin: 0;
-  }
 }
