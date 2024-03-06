@@ -2,6 +2,15 @@
   /* #rightBox {
    
   } */
+  .container {
+    display: block !important;
+  }
+  #leftBox {
+    width: unset !important;
+    padding: 0;
+    margin: 0;
+  }
+
   .noteBox {
     width: unset;
   }
