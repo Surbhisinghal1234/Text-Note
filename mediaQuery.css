@@ -56,7 +56,7 @@
     height: 6rem !important;
   }
   #rightBox {
-    padding: 0 1rem;
+    padding: 0 !important;
   }
 }
 
