@@ -1,62 +1,74 @@
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1000px) {
   #leftBox {
-    padding: 0 3rem;
-  }
+   
+    padding: 0 2rem;
 }
-@media screen and (max-width: 1200px) {
-  .picker {
-    height: 2rem !important;
-    width: 3rem !important;
-  }
-  .color-head h3 {
-    font-size: 19px !important;
-  }
-  #noteText {
-    width: 15rem !important;
-    height: 10rem !important;
-  }
+#noteText {
+ 
+  width: unset !important;
 }
-@media screen and (max-width: 700px) {
-  #leftBox {
-    padding: 0;
-  }
 }
-@media screen and (max-width: 800px) {
-  #noteText {
-    width: 17rem !important;
-    height: 10rem !important;
-  }
+@media screen and (max-width: 700px){
+
+#leftBox {
+   
+  padding: 0 1rem;
 }
-@media screen and (max-width: 700px) {
-  #leftBox {
-    width: 100% !important;
-  }
-  .container {
+}
+@media screen and (max-width: 615px){
+  .container{
     flex-direction: column;
   }
-  #rightBox {
-    width: 100% !important;
-  }
-}
-@media screen and (max-width: 900px) {
-  #leftBox {
-    width: 100% !important;
-  }
-  #btn {
-    padding: 0.4rem 1rem !important;
+  #leftBox{
+    width: unset !important;
+    height: 100vh;
+    padding: 2rem 0;
   }
   #rightBox {
-    width: 100% !important;
+    width: unset !important;
+    height: 100vh;
+  }
+  .noteBox {
+    min-width: 6.7rem !important;
+}
+}
+@media screen and (max-width: 838px){
+  .noteBox {
+    min-width: 4.4rem !important;
+    height: 4rem !important;
   }
 }
-
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 1496px){
+  .noteBox {
+    min-width: 6.8rem !important;
+  }
+}
+@media screen and (max-width: 370px){
+  #noteText{
+    width: 9rem !important;
+    font-size: .5rem;
+  }
+  ::placeholder {
+    font-size: 1rem;
+  }
+}
+@media screen and (min-width:1537px) and (max-width: 2000px){
   #noteText {
-    width: 10rem !important ;
-    height: 6rem !important;
+    height: 14rem !important;
+    width: 23rem !important;
   }
-  #rightBox {
-    padding: 0 !important;
+  .color-head input{
+    height: 3rem;
+    width: 5rem;
+  }
+  .color-head h3{
+    font-size: 1.7rem;
+  }
+  #rightBox h1{
+    font-size: 3rem;
+  }
+  #btn{
+    font-size: 2rem !important;
+    width: 10rem !important;
   }
 }
-
