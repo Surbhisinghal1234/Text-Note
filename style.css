@@ -76,7 +76,7 @@
 #textDisplay {
   display: flex;
   align-items: center;
-  justify-content: left;
+  justify-content: center;
   flex-wrap: wrap;
   gap: 2rem;
   padding-top: 2rem;
