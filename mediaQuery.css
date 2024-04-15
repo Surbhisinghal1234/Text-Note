@@ -1,7 +1,5 @@
-@media screen and (min-width: 300px) and (max-width: 570px) {
-  /* #rightBox {
-   
-  } */
+ /* @media screen and (min-width: 300px) and (max-width: 570px) {
+ 
   .container {
     display: block !important;
   }
@@ -17,11 +15,16 @@
   #textDisplay {
     justify-content: center !important;
   }
+  #rightBox {
+    width: unset !important;
+    padding: 0;
+    margin: 0;
+  }
 }
 
 @media screen and (min-width: 760px) and (max-width: 990px) {
   #rightBox {
-    /* width: unset !important; */
+    width: unset !important;
     padding: 0;
     margin: 0;
   }
@@ -33,4 +36,42 @@
     padding: 0;
     margin: 0;
   }
+}  */
+  @media screen and (max-width: 1200px) {
+
+    #leftBox {
+     
+      padding: 0 3rem;
+  }
+  .picker{
+    height: 2rem  !important;
+    width: 3rem !important;
+  }
+  .color-head h3 {
+    font-size: 19px !important;
 }
+#noteText{
+
+width: 15rem !important;
+height: 10rem !important;
+}
+
+  }
+  @media screen and (max-width: 800px) {
+    #noteText{
+    width: 17rem !important;
+    height: 10rem !important;
+    }
+ 
+  }
+  @media screen and (max-width: 600px){
+    #leftBox{
+      width: 100% !important;
+    }
+    .container{
+      flex-direction: column;
+    }
+    #rightBox{
+      width: 100% !important;
+    }
+  }

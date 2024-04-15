@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Text Note</title>
-    <link rel="stylesheet" href="mediaQuery.css">
+    <link rel="stylesheet" href="mediaQuery.css" />
     <link rel="stylesheet" href="style.css" />
 
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -25,13 +25,20 @@
       <div id="leftBox">
         <div class="text-flex">
           <textarea id="noteText" placeholder="Write a text here"></textarea>
-          <div class="color-head">
-            <input type="color" class="picker" id="bgColor" />
-            <h3>Bg Color</h3>
-          </div>
-          <div class="color-head">
-            <input type="color" class="picker" id="textColor" value="#f8cebc" />
-            <h3>Text Color</h3>
+          <div>
+            <div class="color-head">
+              <input type="color" class="picker" id="bgColor" />
+              <h3>Bg Color</h3>
+            </div>
+            <div class="color-head">
+              <input
+                type="color"
+                class="picker"
+                id="textColor"
+                value="#f8cebc"
+              />
+              <h3>Text Color</h3>
+            </div>
           </div>
         </div>
 
@@ -44,7 +51,7 @@
       </div>
     </div>
 
-    <div class="output"></div>
+    <!-- <div class="output"></div> -->
 
     <script src="script.js"></script>
   </body>

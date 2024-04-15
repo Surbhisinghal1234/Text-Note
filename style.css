@@ -9,9 +9,9 @@ body {
 }
 .container {
   display: flex;
-  /* flex-wrap: wrap; */
   align-items: center;
   justify-content: center;
+  width: 100%;
 }
 .color-head h3 {
   font-size: 25px;
@@ -20,24 +20,24 @@ body {
   color: #fff;
 }
 #leftBox {
-  width: 650px;
-  background-color: gray;
-  height: 100%;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  padding: 0 3rem;
+  /* padding: 0 3rem; */
   background-image: url("https://cdn.pixabay.com/photo/2017/09/05/22/58/background-2719560_1280.jpg");
+  width: 50%;
+  height: 100%;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+  align-items: center;
 }
 
 #rightBox {
-  width: 757px;
+  width: 50%;
   background-color: antiquewhite;
   height: 100%;
-  margin: auto;
+  /* margin: auto; */
   text-align: center;
   background-image: url("https://cdn.pixabay.com/photo/2017/07/28/14/10/background-2548758_1280.jpg");
   background-repeat: no-repeat;
@@ -46,11 +46,14 @@ body {
   background-position: center;
   overflow: scroll;
 }
-
+.text-flex {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
 #textDisplay {
   display: flex;
   flex-wrap: wrap;
-  /* justify-content: center; */
 }
 .noteBox {
   height: 170px;
@@ -60,6 +63,9 @@ body {
   box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.717);
   border: none;
   overflow: auto;
+}
+.color-head{
+  margin-left: 2rem;
 }
 
 .noteBox {
@@ -71,8 +77,8 @@ body {
   text-align: left;
 }
 #noteText {
-  height: 250px;
-  width: 430px;
+  height: 16rem;
+  width: 27rem;
   box-shadow: 2px 2px 4px #ddd3ef;
   border-radius: 10px;
   border: none;
@@ -93,7 +99,6 @@ body {
     rgba(214, 107, 107, 0.721),
     rgba(26, 8, 8, 0.699)
   );
-  /* color: #f8cebcba; */
 }
 .text-flex {
   display: flex;
@@ -102,8 +107,6 @@ body {
 }
 #btn {
   display: inline-block;
-  height: 45px;
-  width: 120px;
   border-radius: 20px;
   background-color: #ec412793;
   box-shadow: 2px 2px 4px #a1783c;
@@ -113,6 +116,7 @@ body {
   font-size: 20px;
   text-shadow: 2px 2px 8px #f6c18f;
   font-family: "Poppins", sans-serif;
+  padding: .5rem 2rem;
 }
 h1 {
   color: #8a632c;
